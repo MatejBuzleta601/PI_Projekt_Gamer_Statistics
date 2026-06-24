@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <div class="min-h-screen bg-blue-200">
+  <div class="min-h-screen bg-blue-200 overflow-x-hidden">
     <Navbar v-if="authStore.user" />
     <RouterView />
   </div>

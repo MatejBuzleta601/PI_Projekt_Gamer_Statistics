@@ -91,7 +91,7 @@
                     <h2 class="text-blue-300 text-lg font-semibold mb-4">Statistike</h2>
                     <p class="text-white text-2xl font-bold mb-4">{{ totalHours }} sati ukupno</p>
 
-                    <div class="grid grid-cols-2 gap-6 mb-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <h3 class="text-blue-300 font-semibold mb-3">Top 3 igre</h3>
                         <ol class="flex flex-col gap-3">
@@ -108,7 +108,7 @@
                     </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <h3 class="text-blue-300 font-semibold mb-3">Top 3 žanra</h3>
                         <ol class="flex flex-col gap-3">

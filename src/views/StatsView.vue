@@ -32,7 +32,7 @@
                 <p class="text-white text-3xl font-bold">{{ gameStore.totalHours }} sati</p>
             </div>
 
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-blue-800 rounded-xl p-6">
                 <h2 class="text-blue-300 text-lg font-semibold mb-4">Top 3 igre</h2>
                 <ol class="flex flex-col gap-3">
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-blue-800 rounded-xl p-6">
                 <h2 class="text-blue-300 text-lg font-semibold mb-4">Top 3 žanra</h2>
                 <ol class="flex flex-col gap-3">
